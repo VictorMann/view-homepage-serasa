@@ -1,0 +1,21 @@
+@import "normalize";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+
+.br {
+    border: 1px solid red;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+._ {
+    display: flex;
+    justify-content: center;
+}
+._c {
+    width: 1024px;
+}
+.flx {
+    display: flex;
+}

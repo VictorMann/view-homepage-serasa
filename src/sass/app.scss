@@ -1,0 +1,34 @@
+@import "variables";
+@import "base";
+
+
+._gl {
+    background-color: rgb(247, 247, 247);
+
+    ._c {
+        font-size: .8em;
+        text-align: right;
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: rgba(0, 0, 0, .44);
+            padding: .8em;
+
+            &:last-child {
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+._header {
+    background-color: $primary-color;
+
+    .logo {
+        flex: 1;
+        img {
+            width: 70px;
+        }
+    }
+}
