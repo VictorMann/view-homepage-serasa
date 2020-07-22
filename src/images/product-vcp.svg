@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="304" height="266" viewBox="0 0 304 266">
+    <defs>
+        <rect id="b" width="232" height="226" rx="4"/>
+        <filter id="a" width="106%" height="106.2%" x="-3%" y="-2.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <rect id="d" width="232" height="226" rx="4"/>
+        <filter id="c" width="126.7%" height="127.4%" x="-13.4%" y="-12.8%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(4 4)">
+            <g fill-rule="nonzero">
+                <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+                <use fill="#FFF" xlink:href="#b"/>
+            </g>
+            <path fill="#EEE" fill-rule="nonzero" d="M4 0h224a4 4 0 0 1 4 4v78.182H0V4a4 4 0 0 1 4-4z"/>
+            <path fill="#797978" d="M22.298 102.07c-.107 1.134-.526 2.018-1.257 2.653-.73.634-1.703.952-2.916.952-.848 0-1.594-.2-2.24-.602-.646-.401-1.144-.972-1.495-1.711-.35-.74-.533-1.598-.548-2.575v-.993c0-1.002.178-1.884.534-2.648.355-.764.866-1.352 1.53-1.766.666-.413 1.435-.62 2.307-.62 1.174 0 2.12.319 2.835.956.717.637 1.133 1.537 1.25 2.7h-1.842c-.087-.764-.31-1.315-.668-1.653-.358-.338-.883-.507-1.575-.507-.804 0-1.422.293-1.853.879-.431.586-.652 1.446-.661 2.579v.941c0 1.148.205 2.024.617 2.627.412.603 1.015.904 1.809.904.726 0 1.272-.162 1.637-.488.366-.326.597-.869.694-1.627h1.842zm10.093 3.459h-1.849L25.8 97.992v7.537h-1.85V94.906h1.85l4.758 7.566v-7.566h1.834v10.623zm4.034-3.947v3.947h-1.849V94.906h4.071c1.189 0 2.133.309 2.832.927.7.617 1.049 1.434 1.049 2.451 0 1.04-.342 1.85-1.027 2.43-.684.578-1.643.868-2.876.868h-2.2zm0-1.481h2.222c.658 0 1.16-.155 1.506-.464.346-.308.519-.755.519-1.338 0-.574-.176-1.033-.527-1.376-.35-.343-.833-.519-1.447-.529h-2.273v3.707zm10.73-5.195h1.841v7.45c0 1.016-.318 1.823-.954 2.421-.636.599-1.475.898-2.518.898-1.11 0-1.968-.28-2.572-.84-.604-.559-.906-1.337-.906-2.334h1.841c0 .564.14.989.42 1.273.28.285.686.427 1.217.427.497 0 .893-.164 1.188-.492.295-.329.442-.782.442-1.361v-7.442z"/>
+            <rect width="82.323" height="29.884" x="134.71" y="38.289" fill="#0081A7" fill-rule="nonzero" rx="3"/>
+            <rect width="202.065" height="7.471" x="14.968" y="19.612" fill="#575756" fill-rule="nonzero" rx="3"/>
+            <rect width="71.097" height="7.471" x="14.968" y="42.025" fill="#797978" fill-rule="nonzero" rx="3"/>
+            <rect width="71.097" height="7.471" x="14.968" y="56.967" fill="#797978" fill-rule="nonzero" rx="3"/>
+            <rect width="147.806" height="7.471" x="14.968" y="127.942" fill="#797978" fill-rule="nonzero" rx="3"/>
+            <path fill="#DDD" fill-rule="nonzero" d="M14.968 142.884h202.065v1H14.968z"/>
+            <rect width="101.032" height="7.471" x="14.968" y="158.76" fill="#797978" fill-rule="nonzero" rx="3"/>
+            <path fill="#DDD" fill-rule="nonzero" d="M14.968 173.702h202.065v1H14.968z"/>
+            <rect width="166.516" height="7.471" x="14.968" y="189.579" fill="#797978" fill-rule="nonzero" rx="3"/>
+            <path fill="#DDD" fill-rule="nonzero" d="M14.968 204.521h202.065v1H14.968z"/>
+        </g>
+        <g transform="translate(52 18)">
+            <g fill-rule="nonzero">
+                <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+                <use fill="#FFF" xlink:href="#d"/>
+            </g>
+            <path fill="#EEE" fill-rule="nonzero" d="M4 0h224a4 4 0 0 1 4 4v78.182H0V4a4 4 0 0 1 4-4z"/>
+            <path fill="#797978" d="M22.298 102.07c-.107 1.134-.526 2.018-1.257 2.653-.73.634-1.703.952-2.916.952-.848 0-1.594-.2-2.24-.602-.646-.401-1.144-.972-1.495-1.711-.35-.74-.533-1.598-.548-2.575v-.993c0-1.002.178-1.884.534-2.648.355-.764.866-1.352 1.53-1.766.666-.413 1.435-.62 2.307-.62 1.174 0 2.12.319 2.835.956.717.637 1.133 1.537 1.25 2.7h-1.842c-.087-.764-.31-1.315-.668-1.653-.358-.338-.883-.507-1.575-.507-.804 0-1.422.293-1.853.879-.431.586-.652 1.446-.661 2.579v.941c0 1.148.205 2.024.617 2.627.412.603 1.015.904 1.809.904.726 0 1.272-.162 1.637-.488.366-.326.597-.869.694-1.627h1.842zm3.5-.488v3.947H23.95V94.906h4.07c1.19 0 2.134.309 2.833.927.699.617 1.048 1.434 1.048 2.451 0 1.04-.342 1.85-1.026 2.43-.685.578-1.644.868-2.876.868h-2.2zm0-1.481h2.223c.657 0 1.16-.155 1.505-.464.346-.308.52-.755.52-1.338 0-.574-.176-1.033-.527-1.376-.35-.343-.833-.519-1.447-.529h-2.273v3.707zm13.85.926h-4.282v4.502h-1.85V94.906h6.761v1.488h-4.911v3.16h4.282v1.473z"/>
+            <rect width="82.323" height="29.884" x="134.71" y="38.289" fill="#0081A7" fill-rule="nonzero" rx="3"/>
+            <rect width="202.065" height="7.471" x="14.968" y="19.612" fill="#575756" fill-rule="nonzero" rx="3"/>
+            <rect width="71.097" height="7.471" x="14.968" y="42.025" fill="#797978" fill-rule="nonzero" rx="3"/>
+            <rect width="71.097" height="7.471" x="14.968" y="56.967" fill="#797978" fill-rule="nonzero" rx="3"/>
+            <rect width="147.806" height="7.471" x="14.968" y="127.942" fill="#797978" fill-rule="nonzero" rx="3"/>
+            <path fill="#DDD" fill-rule="nonzero" d="M14.968 142.884h202.065v1H14.968z"/>
+            <rect width="101.032" height="7.471" x="14.968" y="158.76" fill="#797978" fill-rule="nonzero" rx="3"/>
+            <path fill="#DDD" fill-rule="nonzero" d="M14.968 173.702h202.065v1H14.968z"/>
+            <rect width="166.516" height="7.471" x="14.968" y="189.579" fill="#797978" fill-rule="nonzero" rx="3"/>
+            <path fill="#DDD" fill-rule="nonzero" d="M14.968 204.521h202.065v1H14.968z"/>
+        </g>
+    </g>
+</svg>

@@ -130,9 +130,16 @@
     }
 }
 ._n_pr {
+    border-bottom: 3px solid $primary-color;
+    margin-bottom: 5em;
+
     ._c {
         padding-top: 2em;
         margin-bottom: 5em;
+
+        .title-product {
+            margin-bottom: 2em;
+        }
 
         .title-big {
             .fas {
@@ -143,10 +150,15 @@
         }
 
         .fix {
+            display: flex;
             width: 200px;
+            height: 100vh;
+            align-items: center;
+            border: 1px solid red;
 
             .list-fix {
                 @extend %list-unstyled;
+                width: 100%;
             }
             .se {
                 background: no-repeat center;
@@ -197,16 +209,23 @@
         .lab {
             flex: 1;
 
-            & > * {
-                border: 1px dashed salmon;
-            }
-
             p {
                 color: #888;
             }
 
-            .lab__c {
-                flex: 1;
+            .lab__a {
+                display: flex;
+                align-items: center;
+                height: 100vh;
+
+                & > * {
+                    border: 1px solid red;
+                }
+
+                .lab__c {
+                    flex: 1;
+                }
+
                 .title-med {
                     margin: 0;
                 }
@@ -218,7 +237,32 @@
                 }
             }
             .lab__i {
-                width: 33%;
+                width: 370px;
+                height: 100vh;
+                background: no-repeat 0 center;
+                background-size: 90%;
+
+                &.i_limpa {
+                    background-image: url("../images/product-lno.svg");
+                }
+                &.i_ecred {
+                    background-image: url("../images/product-ecred.svg");
+                }
+                &.i_score {
+                    background-image: url("../images/product-score.svg");
+                }
+                &.i_antifraude {
+                    background-image: url("../images/product-antifraude.svg");
+                }
+                &.i_ensina {
+                    background-image: url("../images/product-ensina.svg");
+                }
+                &.i_cad_pos {
+                    background-image: url("../images/product-cadastro-positivo.svg");
+                }
+                &.i_vcp {
+                    background-image: url("../images/product-vcp.svg");
+                }
             }
         }
     }

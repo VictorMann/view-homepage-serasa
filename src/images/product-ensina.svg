@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="248" height="191" viewBox="0 0 248 191">
+    <defs>
+        <rect id="b" width="240" height="182.867" rx="4"/>
+        <filter id="a" width="105.8%" height="107.7%" x="-2.9%" y="-2.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="nonzero" transform="translate(4 2.133)">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <rect width="239" height="181.867" x=".5" y=".5" fill="#FFF" fill-rule="evenodd" stroke="#EBEBEB" stroke-linejoin="square" stroke-opacity=".98" rx="4"/>
+        <path fill="#D8D8D8" d="M19.714 19.933h60V80.6h-60zM19.714 101.4h60v60.667h-60z"/>
+        <rect width="104.571" height="6.933" x="99.429" y="60.667" fill="gray" rx="3"/>
+        <rect width="104.571" height="6.933" x="99.429" y="141.267" fill="gray" rx="3"/>
+        <rect width="90" height="6.933" x="100.286" y="43.333" fill="gray" rx="3"/>
+        <rect width="90" height="6.933" x="100.286" y="124.8" fill="gray" rx="3"/>
+        <rect width="44.571" height="6.933" x="100.286" y="26.867" fill="#00A1E9" rx="3"/>
+        <rect width="44.571" height="6.933" x="100.286" y="107.467" fill="#CB187F" rx="3"/>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="257" height="248" viewBox="0 0 257 248">
+    <defs>
+        <rect id="b" width="248.5" height="240" rx="4"/>
+        <filter id="a" width="105.6%" height="105.8%" x="-2.8%" y="-2.1%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="nonzero" transform="translate(4 2)">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <rect width="247.5" height="239" x=".5" y=".5" fill="#FFF" fill-rule="evenodd" stroke="#EBEBEB" stroke-linejoin="square" stroke-opacity=".98" rx="4"/>
+        <rect width="214.833" height="24.385" x="16.833" y="107.808" fill="#FFF" stroke="#ECECEC" rx="2"/>
+        <rect width="214.833" height="24.385" x="16.833" y="140.115" fill="#FFF" stroke="#ECECEC" rx="2"/>
+        <rect width="214.833" height="24.385" x="16.833" y="172.423" fill="#FFF" stroke="#ECECEC" rx="2"/>
+        <rect width="214.833" height="24.385" x="16.833" y="204.731" fill="#FFF" stroke="#ECECEC" rx="2"/>
+        <path fill="#F4A82B" d="M4 0h240.5a4 4 0 0 1 4 4v60.615H0V4a4 4 0 0 1 4-4z"/>
+        <rect width="95.667" height="8.077" x="16.333" y="28.846" fill="#FFF" rx="3"/>
+        <rect width="95.667" height="8.077" x="16.333" y="80.769" fill="#F4A82B" rx="3"/>
+        <rect width="95.667" height="8.077" x="28" y="116.538" fill="#D8D8D8" rx="3"/>
+        <rect width="95.667" height="8.077" x="28" y="148.846" fill="#D8D8D8" rx="3"/>
+        <rect width="95.667" height="8.077" x="28" y="181.154" fill="#D8D8D8" rx="3"/>
+        <rect width="95.667" height="8.077" x="28" y="213.462" fill="#D8D8D8" rx="3"/>
+        <path fill="#F4A82B" d="M185.5 116.538h37.333v8.077H185.5zM185.5 148.846h37.333v8.077H185.5zM185.5 181.154h37.333v8.077H185.5zM185.5 213.462h37.333v8.077H185.5z"/>
+    </g>
+</svg>
