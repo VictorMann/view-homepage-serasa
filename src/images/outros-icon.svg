@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <linearGradient id="prefix__a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#6B86A1"/>
+            <stop offset="100%" stop-color="#4D7296"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="24" cy="24" r="24" fill="#E7F3F9"/>
+        <circle cx="24" cy="24" r="3" fill="url(#prefix__a)"/>
+        <circle cx="36" cy="24" r="3" fill="url(#prefix__a)"/>
+        <circle cx="12" cy="24" r="3" fill="url(#prefix__a)"/>
+    </g>
+</svg>

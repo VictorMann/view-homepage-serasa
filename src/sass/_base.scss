@@ -1,13 +1,17 @@
+@import "variables";
 @import "normalize";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap');
 
 
 .br {
-    border: 1px solid red;
+    border: 1px dashed red;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+}
+img {
+    max-width: 100%;
 }
 ._ {
     display: flex;
@@ -18,4 +22,47 @@ body {
 }
 .flx {
     display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.btn {
+    display: inline-block;
+    color: white;
+    background-color: $primary-color;
+    text-decoration: none;
+    padding: .8em 1em;
+    font-weight: 500;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: lighten($primary-color, 5);
+    }
+}
+.btn-ci {
+    display: inline-block;
+    color: white;
+    background-color: $primary-color;
+    text-decoration: none;
+    padding: 1em 5em;
+    font-weight: 500;
+    border-radius: 10px;
+
+    &:hover {
+        background-color: lighten($primary-color, 5);
+    }
+}
+.title-big {
+    color: rgba(0, 0, 0, .66);
+    font-size: 2em;
+}
+.title-med {
+    color: #888;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+%list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }

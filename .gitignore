@@ -1,3 +1,5 @@
 node_modules/
 package-lock.json
-dist/bundle.min.js
+dist/*.js
+dist/fonts
+dist/images
