@@ -131,12 +131,10 @@
 }
 ._n_pr {
     border-bottom: 3px solid $primary-color;
-    margin-bottom: 5em;
-
+    
     ._c {
         padding-top: 2em;
-        margin-bottom: 5em;
-
+        
         .title-product {
             margin-bottom: 2em;
         }
@@ -264,6 +262,128 @@
                     background-image: url("../images/product-vcp.svg");
                 }
             }
+        }
+    }
+}
+._foo {
+
+    padding-bottom: 4em;
+
+    ._c {
+        margin: 0 4%;
+    }
+
+    .list-foo {
+        display: flex;
+        @extend %list-unstyled;
+        color: #444;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 2em;
+
+        & > li {
+            flex: 1;
+            // border: 1px dashed salmon;
+        }
+
+        .title-foo-list {
+            font-size: 1.2em;
+            font-weight: 500;
+        }
+
+        a {
+            display: block;
+            margin-bottom: 1em;
+            text-decoration: none;
+            color: #444;
+            font-size: .9em;
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
+    }
+
+    .ar-info {
+        justify-content: space-between;
+        padding: 4em 0;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .list-rede {
+        display: flex;
+        align-items: center;
+        @extend %list-unstyled;
+        font-size: 2em;
+
+        a {
+            display: inline-block;
+            color: $primary-color;
+            margin: 0 .8em;
+        }
+
+        li {
+            &:first-child a {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .list-apps {
+        display: flex;
+        @extend %list-unstyled;
+
+        li:first-child {
+            margin-right: 1em;
+        }
+
+        a {
+            display: inline-block;
+            
+            img {
+                max-width: 100%;
+                width: 119px;
+                height: 36px;
+            }
+        }
+    }
+    .list-secure {
+        display: flex;
+        @extend %list-unstyled;
+    }
+
+    .list-inst {
+        display: flex;
+        @extend %list-unstyled;
+        padding: 4em 0;
+        text-align: center;
+        font-size: .85em;
+        border-bottom: 1px solid #ccc;
+    
+        & > li {
+            flex: 1;
+        }
+
+        a {
+            display: inline-block;
+            color: $primary-color;
+            text-decoration: none;
+            padding-bottom: .1em;
+            border-bottom: 1px solid $primary-color;
+
+            &:hover {
+                color: lighten($primary-color, 5);
+                border-color: lighten($primary-color, 5);
+            }
+        }
+    }
+
+    address {
+        color: #999;
+        font-style: normal;
+        font-size: .8em;
+
+        p {
+            margin: .5em 0;
         }
     }
 }
